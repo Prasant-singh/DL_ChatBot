@@ -5,7 +5,9 @@ import torch
 import numpy as np
 from model import NeuralNet
 
+
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+
 
 import nltk
 nltk.download('punkt')
@@ -19,6 +21,7 @@ def stem(word):
     return stemmer.stem(word.lower())
 
 def bag_of_words(tokenized_sentence, words):
+   
     sentence_words = [stem(word) for word in tokenized_sentence]
  
     bag = np.zeros(len(words), dtype=np.float32)
@@ -51,45 +54,51 @@ stop_words = set(stopwords.words('english'))
 custom_stop_words = stop_words - {"AI", "ai"} 
 
 while True:
-
     sentence = input("You: ")
-    
+
+    # Remove stopwords (optional, commented out here)
     sentence = [word for word in sentence.split() if word.lower() not in custom_stop_words]
-    sentence=" ".join(sentence)
-    print("STOPWORD REMOVED left sentence:---->",sentence)
+    sentence = " ".join(sentence)
+
     if sentence == "quit":
         break
 
-    sentence = tokenize(sentence)
-    X = bag_of_words(sentence, all_words)
-    
-    if not isinstance(X, np.ndarray):
-        raise TypeError("X should be a NumPy array")
+    # Replace "Anti AI" with "AntiAI"
+    sentence=sentence.lower()
+    sentence = sentence.replace("anti ai", "antiai").replace("anti.ai", "antiai").replace("anti-ai", "antiai").replace("anti_ai", "antiai")
 
-    X = X.reshape(1, X.shape[0])
-    
-    try:
-        X = torch.from_numpy(X).to(device)
-    except RuntimeError as e:
-        print(f"Error converting to tensor: {e}")
-        break
-
-    output = model(X)
-    _, predicted = torch.max(output, dim=1)
-
-    tag = tags[predicted.item()]
-
-    probs = torch.softmax(output, dim=1)
-    prob = probs[0][predicted.item()]
-
-    if prob.item() > 0.75:
-        for intent in intents['intents']:
-            if tag == intent["tag"]:
-                print("TAG - ",tag)
-                print("Probability ",prob.item())
-                print(f"{bot_name}: {random.choice(intent['responses'])}")
-                print()
-
+    # Split sentence by conjunctions like 'and' to detect multiple requests
+    if "and" in sentence:
+        parts = sentence.split("and")
     else:
+        parts = sentence.split("also")
 
-        print(f"{bot_name}: I do not understand... please simplify ")
+
+    responses = []
+    
+    for part in parts:
+        # Tokenize each part separately
+        part = tokenize(part.strip())
+        X = bag_of_words(part, all_words)
+        X = torch.from_numpy(X.reshape(1, X.shape[0])).to(device)
+
+        output = model(X)
+        probs = torch.softmax(output, dim=1)
+
+        # Detect intents with probability above threshold (e.g., 0.75)
+        _, predicted = torch.max(output, dim=1)
+        tag = tags[predicted.item()]
+        prob = probs[0][predicted.item()]
+
+        if prob.item() > 0.90:
+            for intent in intents['intents']:
+                if tag == intent["tag"]:
+                    print("Probability is ",prob)
+                    response = random.choice(intent['responses'])
+                    if response not in responses:
+                        responses.append(response)  # Collect responses
+        else:
+            responses.append(f"I do not understand ... please simplify")
+
+    # Combine responses for multiple intents
+    print(f"{bot_name}: {' '.join(responses)}")

@@ -65,7 +65,10 @@ while True:
         break
 
     # Split sentence by conjunctions like 'and' to detect multiple requests
-    parts = sentence.split("and")
+    if "and" in sentence:
+        parts = sentence.split("and")
+    else:
+        parts = sentence.split("also")
 
     print("Parts is: ",parts[0])
 
@@ -89,9 +92,10 @@ while True:
             for intent in intents['intents']:
                 if tag == intent["tag"]:
                     response = random.choice(intent['responses'])
-                    responses.append(response)  # Collect responses
+                    if response not in responses:
+                        responses.append(response)  # Collect responses
         else:
-            responses.append(f"I do not understand '{part}'... please simplify")
+            responses.append(f"I do not understand ... please simplify")
 
     # Combine responses for multiple intents
     print(f"{bot_name}: {' '.join(responses)}")

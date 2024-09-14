@@ -13,546 +13,489 @@
  
       ],
       "responses": [
-        "Hello, how can i help you?",
-        "Hi there, how can I assist you today?",
-        "Hello, thanks for visiting"
+        "Hello, how can i help you?\n",
+        "Hi there, how can I assist you today?\n",
+        "Hello, thanks for visiting\n"
       ]
     },
     {
       "tag": "tanshiq",
       "patterns": [
-        "Tanishq sharma",
-        "About Tanishq sharma ",
-        "Tanishq sharma bio",
-        "Tanishq sharma details"
+        " Tanishq sharma",
+        " About Tanishq sharma ",
+        " Tanishq sharma bio",
+        " Tanishq sharma details",
+        " ceo bio",
+        " something about ceo",
+        " something about founder",
+        " something about owner",
+        " details of ceo",
+        " founder antiai",
+        " owner antiai"
         
       ],
       "responses": [
-        "Tanishq Sharma is a tech entrepreneur and the founder of ANTI AI, a company dedicated to safeguarding the world from the potential dangers of Artificial General Intelligence (AGI).\nHis deep understanding of AI and software development fuels his commitment to developing ethical AI systems that protect and empower users."
+        "Tanishq Sharma is a tech entrepreneur and the founder of ANTI AI, a company dedicated to safeguarding the world from the potential dangers of Artificial General Intelligence (AGI).\nHis deep understanding of AI and software development fuels his commitment to developing ethical AI systems that protect and empower users.\n"
       ]
     },
-    
-  
     {
       "tag": "default",
       "patterns": [
         "*"
       ],
       "responses": [
-        "It looks like you're asking something new. How can I assist you with our services today?"
+        "It looks like you're asking something new. How can I assist you with our services today?\n"
       ]
     },
     {
       "tag": "motto",
       "patterns": [
-        "motto anti ai",
-        "motto antiai",
-        "motto anti.ai",
+        " motto of antiai",
+        " motto of company",
+        " motto of organisation",
 
-        "motto",
-        "moto"
+        " (*) motto",
+        " moto",
+
+        " slogan",
+        " slogan antiai",
+
+        " tagline",
+        " tagline antiai"
         
       ],
       "responses": [
-        "अन्ते सत्यं विजयते।"
+        "अन्ते सत्यं विजयते।\n"
       ]
     },
     {
       "tag": "anti_Ai_FullForm",
       "patterns": [
-        "full form  anti ai"
+        " full form of antiai"
         
       ],
       "responses": [
-        "A- ARTIFICIAL\nN- NUANCES\nT-TACTICAL\nI-INFILTRATION\nAI- ARTIFICIAL INTELLIGENCE"
+        "A- ARTIFICIAL\nN- NUANCES\nT-TACTICAL\nI-INFILTRATION\nAI- ARTIFICIAL INTELLIGENCE\n"
       ]
     },
     {
       "tag": "vision_mission",
       "patterns": [
-        "vision anti ai",
-        "mission anti ai",
+        " vision antiai",
 
-        "vision",
-        "mission",
+        " mission antiai",
 
-        "goal anti ai",
-        "goal antiai",
-        "goal anti.ai"
+        " vision",
+        " mission",
+
+        " antiai aim achieve",
+
+        " goal antiai"
         
       ],
       "responses": [
-        "Our mission is clear: to protect and empower by strategically managing the infiltration of artificial intelligence. We believe that AI should be harnessed responsibly for the betterment of humanity and society. ANTI AI is committed to providing innovative solutions that ensure the ethical use of AI, preventing unintended intrusions and promoting a secure digital landscape."
+        "Our mission is clear: to protect and empower by strategically managing the infiltration of artificial intelligence. We believe that AI should be harnessed responsibly for the betterment of humanity and society. ANTI AI is committed to providing innovative solutions that ensure the ethical use of AI, preventing unintended intrusions and promoting a secure digital landscape.\n"
       ]
     },
     {
       "tag": "contact_info",
       "patterns": [
-        "(*) contact",
-        "(*) connect antiai",
-        "(*) connect anti ai",
-        "(*) contact antiai",
-        "(*) contact anti ai",
-        "(*) contact anti.ai",
-        "(*) connect anti.ai",
-        "(*) reach anti ai ",
-        "(*) (*) contact details",
-        "(*) contact ",
-        "(*) contact number",
-        "(*) contact our team",
-        "(*) connect with team",
-        "(*) connect with our organisation",
-        "(*) contact *",
-        "(*) contact *",
-        "(*) phone number",
-        "(*) contact info",
+        " contact",
+        " connect antiai",
 
-        "(*) get in touch team",
-        "(*) get in touch owner",
-        "(*) get in touch ceo",
-        "(*) get in touch manager",
-        "(*) get in touch developer",
+        " contact antiai",
 
-        "(*) get in touch antiai",
-        "(*) get in touch anti.ai",
-        "(*) get in touch anti ai",
-        "(*) get in touch"
-      ],
-      "responses": [
-        "Call Us: +91 9116665513 \nsupport@antiai.ltd"
-      ]
-    },
-    {
-      "tag": "best",
-      "patterns": [
-        "We are best in",
-        "speciality",
-        "Efficient ",
-        "best ",
-        "field we are best",
+        " reach anti.ai ",
+        " how to reach you",
 
-        "field good antiai",
-        "field good anti ai",
-        "field good anti.ai"
+        " contact details",
         
+        " contact number",
+        " contact number antiai",
+
+        " contact our team",
+        " connect with team",
+        " connect with our organisation",
+        " contact *",
+        " (*) contact *",
+
+        " phone number",
+        " phone number antiai",
+
+        " contact info",
+        " book appointment",
+
+        " get touch team",
+        " get touch owner",
+        " get touch ceo",
+        " get touch manager",
+
+        " get touch antiai",
+
+        " get touch"
       ],
       "responses": [
-        "\nAI \nWeb \nDevops \nCloud \nApp Development"
+        "Call Us: +91 9116665513 \nsupport@antiai.ltd\n"
       ]
     },
     {
       "tag": "establishment",
       "patterns": [
-        "founded anti ai",
-        "founded antiai",
-        "founded anti.ai",
+        " founded antiai",
+        " founder antiai",
+        " founder name",
 
-        "established antiai",
-        "established anti ai",
-        "established anti.ai",
+        " established antiai",
 
-        "ceo anti ai",
-        "ceo antiai",
-        "ceo anti.ai",
+        " ceo antiai",
 
-        "when antiai started",
-        "year of establishment",
+        " when antiai started",
+        " year of establishment",
 
-        "ceo antiai",
-        "ceo anti ai",
-        "ceo anti.ai",
+        " created antiai",
 
-        "created antiai",
-        "created anti ai",
-        "created anti.ai",
+        " creator antiai",
 
-        "creator anti ai",
-        "creator antiai",
-        "creator anti.ai",
+        " launched",
+        " launched antiai",
 
-        "launched",
+        " started antiai",
 
-        "started antiai",
-        "started anti ai",
-        "started anti.ai",
+        " owner anti.ai",
 
-        "owner anti ai",
-        "owner anti.ai",
-        "owner antiai",
-
-        "antiai originated",
-        "anti.ai originated",
-        "anti ai originated"
+        " antiai originated"
 
         
       ],
       "responses": [
-        "Anti AI was founded in 2024 by Tanishq Sharma."
+        "Anti AI was founded in 2024 by Tanishq Sharma.\n"
         
       ]
     },
     {
       "tag": "anti ai",
       "patterns": [
-        "anti ai",
-        "antiai",
-        "anti.ai",
+        " antiai",
         
-        "about anti ai",
-        "about antiai",
-        "about anti.ai",
+        " about antiai",
 
-        "description anti ai",
-        "description antiai",
-        "description anti.ai",
+        " description antiai",
 
-        "what Antiai do",
-        "what Anti ai do",
-        "what Anti.ai do",
+        " Antiai",
+        " Something about antiai",
 
-        "purpose anti ai",
-        "purpose antiai",
-        "purpose anti.ai"
+        " purpose antiai"
       ],
       "responses": [
-        "Anti AI is an AI research and development company. Our mission is to mitigate the threat from artificial general intelligence before it arises, ensuring safe usage of AI for the benefit of humanity."
+        "Anti AI is an AI research and development company. Our mission is to mitigate the threat from artificial general intelligence before it arises, ensuring safe usage of AI for the benefit of humanity.\n"
       ]
     },
     {
       "tag": "size",
       "patterns": [
-        "team size",
-        "team size antiai",
-        "team size anti ai",
-        "team size anti.ai",
+        " team size",
+        " team size antiai",
 
-        "number of employees",
-        "employees anti ai",
-        "team members",
+        " number of employees",
 
-        "* working anti ai",
-        "* working antiai",
-        "* working anti.ai",
+        " employees in antiai",
 
-        "Total developers antiai",
-        "Total developers anti ai",
-        "Total developers anti.ai",
+        " team members",
 
-        "size antiai",
-        "size anti ai",
-        "size anti.ai",
+        " working in antiai",
 
-        "number developers antiai",
-        "number developers anti.ai",
-        "number developers anti ai",
+        " Total developers antiai",
 
-        "size company",
-        "size organisation"
+        " size antiai",
+
+        " number developers antiai",
+
+        " size company",
+        " size organisation",
+        " people currently working in antiai",
+        " developer currently working in antiai",
+        " team count antiai",
+        " total working strength antiai",
+        " total work power antiai"
 
       ],
       "responses": [
-        "We have a team of 10-50 members."
+        "We have a team of 10-50 members.\n"
       ]
     },
     {
       "tag": "working_hours",
       "patterns": [
-        "working hours antiai",
-        "working hours anti ai",
-        "working hours anti.ai",
+        " working hours antiai",
 
-        "when contact team",
-        "when contact organisation",
 
-        "contact hours",
-        "contact time",
+        " when contact team",
+        " when contact organisation",
 
-        "available connect",
+        " contact hours",
+        " contact time",
 
-        "when contact team",
-        "when contact antiai",
-        "when contact anti.ai",
-        "when contact anti ai",
+        " available connect",
 
-        "when reach",
+        " when contact team",
+        " when contact antiai",
 
-        "office hours antiai",
-        "office hours anti ai",
-        "office hours anti.ai",
+        " when reach",
 
-        "working schedule",
+        " office hours antiai",
 
-        "when call antiai",
-        "when call anti ai",
-        "when call anti.ai"
+        " working schedule",
+
+        " when call antiai"
         
       ],
       "responses": [
-        "Our working hours are Monday-Saturday, 10 am - 7 pm."
+        "Our working hours are Monday-Saturday, 10 am - 7 pm.\n"
       ]
     },
     {
       "tag": "speciality",
       "patterns": [
-        "speciality",
-        "makes unique",
+        " speciality",
+        " makes unique",
 
-        "anti ai expertise",
-        "antiai expertise",
-        "anti.ai expertise",
+        " antiai expertise",
 
-        "anti ai strength",
-        "antiai strength",
-        "anti.ai strength",
+        " antiai strength",
 
-        "special about antiai",
-        "special about anti ai",
-        "special about anti.ai"
+        " special about antiai"
 
         
       ],
       "responses": [
-        "Our specialities include Uniqueness, Growth, Goal-Oriented Software."
+        "Our specialities include Uniqueness, Growth, Goal-Oriented Software.\n"
       ]
     },
     {
       "tag": "headquarter",
       "patterns": [
-        "headquarter",
-        "located",
-        "address",
-        "where office",
-        "situated",
+        " headquarter",
+        " headquater",
+        " headquarter antiai",
+        " located",
+        " located antiai",
+        " address",
+        " where office",
+        " situated",
+        " situated antiai",
 
-        "anti ai office location",
-        "antiai office location",
-        "anti.ai office location",
+        " central office",
+        " central office antiai",
 
-        "anti ai address",
-        "anti.ai address",
-        "antiai address",
+        " antiai office location",
 
-        "antiai headquarter",
-        "anti ai headquarter",
-        "anti.ai headquarter",
+        " antiai address",
 
-        "antiai office address",
-        "anti ai office address",
-        "anti.ai office address"
+        " antiai headquarter",
+
+        " antiai office address",
+
+        "main office address"
 
       ],
       "responses": [
-        "Our headquarters are located at: 52/210, Padmani VT Rd, Ward 27, Mansarovar Sector 5, Mansarovar, Jaipur, Rajasthan 302020"
+        "Our headquarters are located at: 52/210, Padmani VT Rd, Ward 27, Mansarovar Sector 5, Mansarovar, Jaipur, Rajasthan 302020\n"
       ]
     },
     {
       "tag": "projects",
       "patterns": [
-        "working on project",
-        "working on product",
+        " on project",
+        " on product",
 
-        "project",
-        "projects antiai",
-        "projects anti ai",
-        "projects anti.ai",
+        " project",
+        " projects antiai",
+        
+        " product offered antiai",
+        
+        " project offered antiai",
+       
+        " products",
+        " product antiai",
+        
+        " ongoing projects antiai",
+        
+        " ongoing products antiai",
+        
+        " under develop projects antiai",
+        
+        " under develop products antiai",
+        
+        " current products antiai",
+        
+        " project details",
+        " product details",
 
-        "product offered antiai",
-        "product offered anti ai",
-        "product offered anti.ai",
-
-        "project offered antiai",
-        "project offered anti ai",
-        "project offered anti.ai",
-
-        "products",
-        "product antiai",
-        "product anti ai",
-        "product anti.ai",
-
-        "ongoing projects antiai",
-        "ongoing projects anti ai",
-        "ongoing projects anti.ai",
-
-        "ongoing products antiai",
-        "ongoing products anti ai",
-        "ongoing products anti.ai",
-
-        "under develop projects anti ai",
-        "under develop projects antiai",
-        "under develop projects anti.ai",
-
-        "under develop products antiai",
-        "under develop products anti.ai",
-        "under develop products anti ai",
-
-        "currently working on ",
-        "current products anti.ai",
-        "current products anti ai",
-        "current products antiai",
-
-        "project details",
-        "product details",
-
-        "currently building",
-        "currently developing"
+        " currently building",
+        " currently developing"
         
       ],
       "responses": [
-        "Our Projects:\nANTI.Q - Music Player\nANTI.0 - Robust protection against AI-driven intrusions\nANTI.1 - Redefines AI capabilities with innovative features and functionalities."
+        "Our Projects:\nANTI.Q - Music Player\nANTI.0 - Robust protection against AI-driven intrusions\nANTI.1 - Redefines AI capabilities with innovative features and functionalities.\n"
       ]
     },
     {
       "tag": "product_walkman",
       "patterns": [
-        "about walkman",
-        "walkman",
+        " about walkman",
+        " walkman",
 
-        "ANTI.Q- Music Player",
-        "ANTIQ Music Player",
-        "ANTI Q Music Player",
+        " ANTI.Q- Music Player",
+        " ANTIQ Music Player",
+        " ANTI Q Music Player",
 
-        "Music Player",
-        "describe Walkman",
-        "describe antiq music player",
+        " Music Player",
+        " describe Walkman",
+        " describe antiq music player",
 
-        "ANTIQ",
-        "ANTI.Q",
+        " ANTIQ",
+        " ANTI.Q",
 
-        "project antiq",
-        "project anti q",
-        "project anti.q",
-        "project walkman",
+        " project antiq",
+        " project anti q",
+        " project anti.q",
+        " project walkman",
 
-        "ANTI-Q",
-        "Features music player",
-        "under process walkman ",
-        "currently working walkman "
+        " Features music player",
+        " under process walkman "
         
       ],
       "responses": [
-        "ANTI.Q is our flagship, one-of-a-kind music player, designed to revive the charm of retro entertainment. It delivers a serverless, uninterrupted audio experience, reminiscent of a bygone era.\n\nServerless\t\t\tRetro\nNostalgia\t\t\tMusic player\nUninterrupted\t\t\tVintage"
+        "ANTI.Q is our flagship, one-of-a-kind music player, designed to revive the charm of retro entertainment. It delivers a serverless, uninterrupted audio experience, reminiscent of a bygone era.\n\nServerless\t\t\tRetro\nNostalgia\t\t\tMusic player\nUninterrupted\t\t\tVintage\n"
       ]
     },
     {
       "tag": "product_Anti0",
       "patterns": [
-        "about anti.0",
-        "about anti 0",
-        "about anti0",
+        " about anti.O",
+        " about anti O",
+        " about antiO",
 
-        "describe anti.0",
-        "describe anti0",
-        "describe anti 0",
+        " describe anti.O",
+        " describe antiO",
+        " describe anti O",
 
-        "ANTI.0",
-        "ANTI 0",
-        "anti0",
+        " ANTI.O",
+        " ANTI O",
+        " antiO",
 
-        "Features anti 0",
-        "Features anti.0",
+        " Features anti O",
+        " Features anti.O",
 
-        "project anti0",
-        "project anti 0",
-        "project anti.0",
+        " project antiO",
+        " project anti O",
+        " project anti.O",
 
-        "Software that  protect from harmful ai"
+        " about anti.0",
+        " about anti 0",
+        " about anti0",
+
+        " describe anti.0",
+        " describe anti0",
+        " describe anti 0",
+
+        " ANTI.0",
+        " ANTI 0",
+        " anti0",
+
+        " Features anti 0",
+        " Features anti.0",
+
+        " project anti0",
+        " project anti 0",
+        " project anti.0",
+
+        " Software that  protect from harmful ai"
 
       ],
       "responses": [
-        "ANTI.0 is our pioneering Anti AI Software, specifically crafted to combat the influence of Artificial Intelligence. This innovative solution is under active development by our expert team of developers.\n\nSecurity\t\t\tFuture Proof"
+        "ANTI.0 is our pioneering Anti AI Software, specifically crafted to combat the influence of Artificial Intelligence. This innovative solution is under active development by our expert team of developers.\n\nSecurity\t\t\tFuture Proof\n"
       ]
     },
     {
       "tag": "product_Anti1",
       "patterns": [
-        "about anti.1",
-        "about anti 1",
-        "about anti1",
+        " about anti.1",
+        " about anti 1",
+        " about anti1",
 
-        "describe anti.1",
-        "describe anti1",
-        "describe anti 1",
+        " describe anti.1",
+        " describe anti1",
+        " describe anti 1",
 
-        "ANTI.1",
-        "ANTI 1",
-        "anti1",
+        " ANTI.1",
+        " ANTI 1",
+        " anti1",
 
-        "Features anti 1",
-        "Features anti.1",
+        " Features anti 1",
+        " Features anti.1",
 
-        "project anti1",
-        "project anti 1",
-        "project anti.1"
+        " project anti1",
+        " project anti 1",
+        " project anti.1"
 
       ],
       "responses": [
-        "ANTI.1 represents our groundbreaking Concept Artificial Intelligence Project, aimed at disrupting the AI industry with a novel approach. Currently in the developmental phase, ANTI.1 is being meticulously crafted by our dedicated team of researchers and developers. It seeks to redefine AI capabilities by offering innovative features and functionalities not seen before.\n\nInnovative\t\t\tEthical AI"
+        "ANTI.1 represents our groundbreaking Concept Artificial Intelligence Project, aimed at disrupting the AI industry with a novel approach. Currently in the developmental phase, ANTI.1 is being meticulously crafted by our dedicated team of researchers and developers. It seeks to redefine AI capabilities by offering innovative features and functionalities not seen before.\n\nInnovative\t\t\tEthical AI\n"
       ]
     },
     {
       "tag": "all_services",
       "patterns": [
-        "all services",
-        "services",
+        " all services",
+        " services",
 
-        "services provided antiai",
-        "services provided anti.ai",
-        "services provided anti ai",
-
-        "list services offered",
-        "services provided",
-
-        "all services provided antiai",
-        "all services provided anti ai",
-        "all services provided anti.ai",
-
-        "service offer",
-
-        "about antiai services",
-        "about anti ai services",
-        "about anti.ai services"
+        " services antiai",
         
+        " services provided antiai",
+        
+        " list services offered",
+        " services provided",
+
+        " all services provided antiai",
+        
+        " service offer",
+
+        " about antiai services"
       ],
       "responses": [
-        "\nAI Services\t\t\t\tAutomated Incident Response\nWeb Services\t\t\t\tCloud Services\nDevOps Services\t\t\t\tApp Development\n\nThese services are designed to help individuals and organizations build safe and smart solutions against AGI, and to achieve their mission of creating a better future for all."
+        "\nAI Services\nWeb Services\nCloud Services\nDevOps Services\nApp Development\n\nThese services are designed to help individuals and organizations build safe and smart solutions against AGI, and to achieve their mission of creating a better future for all.\n"
       ]
     },
     {
       "tag": "ai services",
       "patterns": [
-        "ai services",
-        "ai services",
+        " ai services",
 
-        "ai services provided antiai",
-        "ai services provided anti.ai",
-        "ai services provided anti ai",
+        " ai services provided antiai",
+   
+        " list AI services offered",
 
-        "list AI services offered",
-
-        "AI services provided",
-        "AI services provided antiai",
-        "AI services provided anti ai",
-        "AI services provided anti.ai",
-        "ai service offer",
+        " all ai service",
+        " antiai all ai service",
+   
+        " AI services provided",
+        " AI services provided antiai",
+        " ai service offer",
         
-        "about antiai AI services",
-        "about anti ai AI services",
-        "about anti.ai AI services",
+        " about antiai AI services",
+   
+        " ai services antiai",
+   
+        " antiai offer ai",
+        " offer ai",
 
-        "anti ai offer ai",
-        "antiai offer ai",
-        "anti.ai offer ai",
-        "offer ai",
-
-        "ai solutions",
+        " ai solutions",
         
-        "antiai offer ai",
-        "anti ai offer ai",
-        "anti.ai offer ai"
-        
+        " antiai offer ai"     
       ],
       "responses": [
-        "AI Services: AI chatbots, AI voice assistants, AI sales bots, and more to automate your business and increase efficiency."
+        "Our AI Services are AI chatbots, AI voice assistants, AI sales bots, and more to automate your business and increase efficiency.\n"
       
       ]
     },
@@ -560,219 +503,187 @@
     {
       "tag": "web_services",
       "patterns": [
-        "web services",
+        " web services",
 
-        "web services provided antiai",
-        "web services provided anti.ai",
-        "web services provided anti ai",
+        " web services provided antiai",
+      
+        " list web services offered",
 
-        "list web services offered",
+        " all web service",
+        " antiai all web service",
+      
+        " web services antiai",
+      
+        " web services provided",
+        " web services provided antiai",
+      
+        " web service offer",
 
-        "web services provided",
-        "web services provided antiai",
-        "web services provided anti ai",
-        "web services provided anti.ai",
+        " about antiai web services",
+      
+        " web solutions",
 
-        "web service offer",
+        " antiai offer web",
+      
+        " offer web",
+        " website",
 
-        "about antiai web services",
-        "about anti ai web services",
-        "about anti.ai web services",
+        " website service",
+        " website building",
+        " website development",
 
-        "web solutions",
-
-        "anti ai offer web",
-        "antiai offer web",
-        "anti.ai offer web",
-
-        "offer web",
-        "website",
-
-        "website service",
-        "website building",
-        "website development",
-
-        "antiai offer web",
-        "anti ai offer web",
-        "anti.ai offer web"
+        " antiai offer web"
       ],
       "responses": [
-        "Web Services: End-to-end solutions for building robust, scalable, and user-friendly websites and applications, customized to your business needs."
+        "Our Web Services include End-to-end solutions for building robust, scalable, and user-friendly websites and applications, customized to your business needs.\n"
       ]
     },
     {
       "tag": "devops_services",
       "patterns": [
-        "devOps services",
+        " devOps services",
 
-        "devOps services provided antiai",
-        "devOps services provided anti.ai",
-        "devOps services provided anti ai",
+        " devOps services provided antiai",
+        
+        " list devOps services offered",
 
-        "list devOps services offered",
+        " devops services antiai",
+        
+        " all devops service",
+        " antiai all devops service",
+        
+        " devOps services provided",
+        " devOps services provided antiai",
+        
+        " devOps service offer",
 
-        "devOps services provided",
-        "devOps services provided antiai",
-        "devOps services provided anti ai",
-        "devOps services provided anti.ai",
+        " about antiai devOps services",
+        
+        " Devops solutions",
+        " Devops services",
+        " Devops solutions offered",
 
-        "devOps service offer",
-
-        "about antiai devOps services",
-        "about anti ai devOps services",
-        "about anti.ai devOps services",
-
-        "Devops solutions",
-        "Devops services",
-        "Devops solutions offered",
-
-        "anti ai handle devops",
-        "anti.ai handle devops",
-        "antiai handle devops",
-
-        "anti ai offer devOps",
-        "antiai offer devOps",
-        "anti.ai offer devOps",
+        " antiai handle devops",
+        
+        " antiai offer devOps",
+        
         "offer devOps",
-
         "devOps"
         
       ],
       "responses": [
-        "DevOps Services: Streamlining software development and deployment processes, ensuring efficiency and quality with our DevOps services."
+        "our DevOps Services helps streamlining software development and deployment processes, ensuring efficiency and quality with our DevOps services.\n"
       ]
     },
     {
       "tag": "cloud_services",
       "patterns": [
-        "cloud services",
+        " cloud services",
 
-        "cloud services provided antiai",
-        "cloud services provided anti.ai",
-        "cloud services provided anti ai",
-
-        "list cloud services offered",
-
-        "cloud services provided",
-        "cloud services provided antiai",
-        "cloud services provided anti ai",
-        "cloud services provided anti.ai",
-
-        "cloud service offer",
-
-        "about antiai cloud services",
-        "about anti ai cloud services",
-        "about anti.ai cloud services",
-
-        "cloud solutions",
-        "cloud services",
-        "cloud solutions offered",
-
-        "anti ai handle cloud",
-        "anti.ai handle cloud",
-        "antiai handle cloud",
-
-        "anti ai offer cloud",
-        "antiai offer cloud",
-        "anti.ai offer cloud",
-        "offer cloud",
+        " cloud services provided antiai",
         
-        "cloud",
-        "cloud solutions",
+        " cloud services antiai",
+        
+        " list cloud services offered",
+
+        " all cloud service",
+        " antiai all cloud service",
+        
+        " cloud services provided",
+        " cloud services provided antiai",
+        
+        " cloud service offer",
+
+        " about antiai cloud services",
+        
+        " cloud solutions",
+        " cloud services",
+        " cloud solutions offered",
+
+        " antiai handle cloud",
+        
+        " antiai offer cloud",
+        " offer cloud",
+        
+        " cloud",
         "help cloud services"
       ],
       "responses": [
-        "Cloud Services: We help you build and manage your cloud infrastructure, ensuring scalability and reliability."
+        "Our Cloud Services will help you build and manage your cloud infrastructure, ensuring scalability and reliability.\n"
       ]
     },
     {
       "tag": "app_development",
       "patterns": [
-        "app development services",
+        " app development services",
 
-        "app development services provided antiai",
-        "app development services provided anti.ai",
-        "app development services provided anti ai",
-
-        "list app development services offered",
-
-        "mobile app development",
-        "mobile app development antiai",
-        "mobile app development anti ai",
-        "mobile app development anti.ai",
-
-        "app development services provided",
-        "app development services provided antiai",
-        "app development services provided anti ai",
-        "app development services provided anti.ai",
-
-        "app development service offer",
-
-        "about antiai app development services",
-        "about anti ai app development services",
-        "about anti.ai app development services",
-
-        "app development solutions",
-        "app development services",
-        "app development solutions offered",
-
-        "anti ai handle app development",
-        "anti.ai handle app development",
-        "antiai handle app development",
-
-        "anti ai offer app development",
-        "antiai offer app development",
-        "anti.ai offer app development",
-        "offer app development",
+        " app development services provided antiai",
         
-        "app development",
-        "app development solutions",
-
-        "help app development services",
-
-        "app services",
-        "app services anti ai",
-        "app services anti.ai",
-        "app services antiai",
-
-        "app services provided antiai",
-        "app services provided anti.ai",
-        "app services provided anti ai",
-
-        "list app services offered",
-
-        "app services provided",
-        "app services provided antiai",
-        "app services provided anti ai",
-        "app services provided anti.ai",
-
-        "app service offer",
-
-        "about antiai app services",
-        "about anti ai app services",
-        "about anti.ai app services",
-
-        "app solutions",
-        "app services",
-        "app solutions offered",
-
-        "anti ai handle app",
-        "anti.ai handle app",
-        "antiai handle app",
-
-        "anti ai offer app",
-        "antiai offer app",
-        "anti.ai offer app",
-
-        "offer app",
+        " app services antiai",
         
-        "app building",
-        "app solutions",
-        "help app services"
+        " list app development services offered",
+
+        " all app development service",
+        " antiai all app development service",
+        
+        " all app service",
+        " antiai all app service",
+        
+        " mobile app development",
+        " mobile app development antiai",
+        
+        " app development services provided",
+        " app development services provided antiai",
+        
+        " app development service offer",
+
+        " about antiai app development services",
+        
+        " app development solutions",
+        " app development services",
+        " app development solutions offered",
+
+        " antiai handle app development",
+        
+        " antiai offer app development",
+        
+        " offer app development",
+        
+        " app development",
+        " app development solutions",
+
+        " help app development services",
+
+        " app services",
+        " app services antiai",
+        
+        " app services provided antiai",
+        
+        " list app services offered",
+
+        " app services provided",
+        " app services provided antiai",
+        
+        " app service offer",
+
+        " about antiai app services",
+        
+        " app solutions",
+        " app services",
+        " app solutions offered",
+
+        " antiai handle app",
+        
+        " antiai offer app",
+        
+        " offer app",
+        
+        " app building",
+        " help app services"
         
       ],
       "responses": [
-        "App Development: Transforming ideas into powerful mobile solutions with custom app development tailored to your business needs."
+        "Our App Development Service helps in Transforming ideas into powerful mobile solutions with custom app development tailored to your business needs.\n"
       ]
     }
   ]
